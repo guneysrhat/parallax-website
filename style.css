@@ -33,3 +33,13 @@ html {
   background-position: center;
   background-attachment: fixed;
 }
+
+.backgroundLight {
+  text-align: center;
+  padding: 1rem;
+}
+.backgroundDark {
+  text-align: center;
+  padding: 1rem;
+  background-color: #282e34;
+}
