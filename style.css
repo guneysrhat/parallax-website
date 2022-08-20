@@ -1,0 +1,35 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.7rem;
+}
+.image {
+  background-image: url(img/bg.jpg);
+}
+
+.image2 {
+  background-image: url(img/bg2.jpg);
+}
+.image3 {
+  background-image: url(img/bg3.jpg);
+}
+.image4 {
+  background-image: url(img/bg4.jpg);
+}
+.image,
+.image2,
+.image3,
+.image4 {
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
